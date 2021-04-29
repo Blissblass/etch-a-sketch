@@ -1,17 +1,48 @@
-#container {
-    display: grid;
-    background-color: rgb(255, 227, 227);
-    grid-template-columns: repeat(16, 1em);
-    grid-template-rows: repeat(16,1em);
+* {
+    background-color: rgb(253, 255, 245);
 }
 
-.cell {
-    border: 1px black solid;
-    padding: 5px;
+#title {
     text-align: center;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 #main {
     display: flex;
     justify-content: center;
+}
+
+#container {
+    display: grid;
+}
+
+.cell {
+    border: 1px rgb(27, 27, 27) solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.paint {
+    background-color:rgb(27, 27, 27);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em
+}
+
+button {
+    background-color: rgb(223, 223, 223);
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 10px rgb(37, 37, 37);
+}
+
+button:active {
+    box-shadow: 1px 1px 20px black;
 }
