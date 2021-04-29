@@ -10,14 +10,12 @@
 
 #main {
     display: flex;
-    flex-flow: column;
     justify-content: center;
 }
 
 
 #container {
     display: grid;
-    margin: 2rem auto;
 }
 
 .cell {
@@ -40,6 +38,7 @@ button {
     background-color: rgb(223, 223, 223);
     border: none;
     padding: 10px;
+    border-radius: 5px;
 }
 
 button:hover {
