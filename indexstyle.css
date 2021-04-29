@@ -10,11 +10,14 @@
 
 #main {
     display: flex;
+    flex-flow: column;
     justify-content: center;
 }
 
+
 #container {
     display: grid;
+    margin: 2rem auto;
 }
 
 .cell {

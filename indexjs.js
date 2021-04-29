@@ -32,7 +32,7 @@ RESBTN.addEventListener('click', () => {
         CELLS[i].classList.remove('paint');
     }
     // asks you for a new canvas size
-    let test = parseInt(prompt('Hi! This is a test!'));
+    let test = parseInt(prompt('Please choose canvas size!'));
     console.log(test);  
     if(test <= 100 && test > 0) {
         a = test;
@@ -49,7 +49,6 @@ RESBTN.addEventListener('click', () => {
         alert('Please select a value between 0 and 64!');
     }
 });
-
 // This section makes the button clear the canvas
 CLEARBTN.addEventListener('click', () => {
     for(i = 0; i < CELLS.length; i++) {
